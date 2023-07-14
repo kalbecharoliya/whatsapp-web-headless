@@ -1,5 +1,14 @@
+
+
+
+
+
+
 WhatsApp Group Automation
 This script automates the process of sending messages to WhatsApp group using Selenium and Python. It opens WhatsApp Web, locates the desired group, and sends a specified message to group.
+
+Main goal is to go headless in Selenium and on locked windows screen.
+In headless mode you dont have windows clipborad access so you cant copy paste message text, this code doesnt require any copy paste method.
 
 Features:
 Uses Selenium and Python to automate browser actions
