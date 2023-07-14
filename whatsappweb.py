@@ -45,6 +45,8 @@ session_file = 'C:/PATH/TO/DIRECTORY/session.pkl'  # Replace with the desired pa
 with open(session_file, 'wb') as file:
     pickle.dump(session_data, file)
 
+# Wait for the user to scan the QR code manually
+input("Press Enter after scanning the QR code")
 
 #Time delay to open Whatsapp web.
 time.sleep(15)
