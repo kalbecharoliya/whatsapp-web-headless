@@ -1,9 +1,3 @@
-
-
-
-
-
-
 WhatsApp Group Automation
 This script automates the process of sending messages to WhatsApp group using Selenium and Python. It opens WhatsApp Web, locates the desired group, and sends a specified message to group.
 
