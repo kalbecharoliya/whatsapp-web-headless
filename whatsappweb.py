@@ -35,7 +35,7 @@ service = Service(chrome_driver_path)
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # Open web.whatsapp.com
-driver.get('https://web.whatsapp.com/YOUR_WHATSAPPGROUP')
+driver.get('https://web.whatsapp.com/YOUR_WHATSAPPGROUP') #Copy the ID from sharing whatsapp link.
 
 # Save the session data for future use
 session_data = {
